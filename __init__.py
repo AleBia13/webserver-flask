@@ -19,4 +19,6 @@ def create_app():
         return jsonify({"data_present": is_data_present
         ,
         "data": data_store}), 200
+    
+    return app
 
